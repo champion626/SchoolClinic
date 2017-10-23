@@ -1,0 +1,21 @@
+08:28:37.498 [main] INFO  cn.myoa.ApplicationRun - Starting ApplicationRun on zhangxianshengdeMacBook-Pro.local with PID 997 (/Users/zhangxiansheng/Documents/workspace/everbetter-service/everbetteroa/target/classes started by zhangxiansheng in /Users/zhangxiansheng/Documents/workspace/everbetter-service/everbetteroa)
+08:28:37.500 [main] INFO  cn.myoa.ApplicationRun - The following profiles are active: dev
+08:28:38.012 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+08:28:39.995 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+08:28:39.997 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.4
+08:28:40.108 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+08:28:41.579 [main] INFO  o.f.c.internal.util.VersionPrinter - Flyway 3.2.1 by Boxfuse
+08:28:41.992 [main] INFO  o.f.c.i.dbsupport.DbSupportFactory - Database: jdbc:mysql://127.0.0.1:3306/everbetteroa?autoReconnect=true&useSSL=false (MySQL 5.6)
+08:28:42.088 [main] INFO  o.f.c.i.m.MetaDataTableImpl - Creating Metadata table: `everbetteroa`.`schema_version`
+08:28:42.184 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `everbetteroa`: << Empty Schema >>
+08:28:42.185 [main] INFO  o.f.core.internal.command.DbMigrate - Migrating schema `everbetteroa` to version 1.0.1 - adduser
+08:28:42.228 [main] INFO  o.f.core.internal.command.DbMigrate - Successfully applied 1 migration to schema `everbetteroa` (execution time 00:00.140s).
+08:28:42.858 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+08:28:42.873 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8001]
+08:28:42.886 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+08:28:42.920 [main] INFO  cn.myoa.ApplicationRun - Started ApplicationRun in 5.952 seconds (JVM running for 12.715)
+08:28:42.921 [main] INFO  cn.myoa.ApplicationRun - Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8001
+	External: 	http://172.16.132.90:8001
+----------------------------------------------------------
