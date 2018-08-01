@@ -1,0 +1,20 @@
+20:30:24.234 [main] INFO  cn.myoa.ApplicationRun - Starting ApplicationRun on 192.168.1.5 with PID 4519 (/Users/zhangxiansheng/Documents/workspace/everbetter-service/everbetteroa/target/classes started by zhangxiansheng in /Users/zhangxiansheng/Documents/workspace/everbetter-service/everbetteroa)
+20:30:24.240 [main] INFO  cn.myoa.ApplicationRun - The following profiles are active: dev
+20:30:24.484 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.2.4.Final
+20:30:26.618 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+20:30:26.619 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.4
+20:30:26.717 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+20:30:27.837 [main] INFO  o.f.c.internal.util.VersionPrinter - Flyway 3.2.1 by Boxfuse
+20:30:28.115 [main] INFO  o.f.c.i.dbsupport.DbSupportFactory - Database: jdbc:mysql://127.0.0.1:3306/everbetteroa?autoReconnect=true&useSSL=false (MySQL 5.6)
+20:30:28.240 [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema `everbetteroa`: 1.0.1
+20:30:28.241 [main] INFO  o.f.core.internal.command.DbMigrate - Schema `everbetteroa` is up to date. No migration necessary.
+20:30:28.798 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+20:30:28.806 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler [http-nio-8001]
+20:30:28.834 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+20:30:28.854 [main] INFO  cn.myoa.ApplicationRun - Started ApplicationRun in 5.131 seconds (JVM running for 6.464)
+20:30:28.855 [main] INFO  cn.myoa.ApplicationRun - Access URLs:
+----------------------------------------------------------
+	Local: 		http://127.0.0.1:8001
+	External: 	http://192.168.1.5:8001
+----------------------------------------------------------
+20:32:36.191 [http-nio-8001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
